@@ -107,7 +107,7 @@ opensearch+https://admin:admin@localhost:9200
 **Test Run Date**:08/03/2025\
 **Result**: Pass\
 **Testing Outputs**: 
-![Output File](file4.png)
+![Output File](File4.png)
 ---
 
 ### TC5: Create a Dataset in Superset
@@ -118,7 +118,7 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The dataset should be available for visualization.
 
 **Testing Outputs**: 
-![Output File](file5.png)
+![Output File](File5.png)
 ---
 
 ### TC6: Build and Configure Charts
@@ -129,7 +129,7 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The charts should correctly visualize the dataset.
 
 **Testing Outputs**: 
-![Output File](file6.png)
+![Output File](File6.png)
 ---
 
 ### TC7: Assemble a Dashboard
@@ -140,7 +140,7 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The dashboard should be visually appealing and functional.
 
 **Testing Outputs**: 
-![Output File](file7.png)
+![Output File](File7.png)
 ---
 
 ### TC8: Apply Customizations and Filters
@@ -151,7 +151,7 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The dashboard should allow dynamic interactions.
 
 **Testing Outputs**: 
-![Output File](file8.png)
+![Output File](File8.png)
 ---
 
 ### TC9: Validate Dashboard Performance
@@ -162,7 +162,7 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The dashboard should perform well without lag.
 
 **Testing Outputs**: 
-![Output File](file9.png)
+![Output File](File9.png)
 
 ---
 
