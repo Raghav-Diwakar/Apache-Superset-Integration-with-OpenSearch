@@ -24,7 +24,6 @@ The goal of this project is to explore Apache Superset, connect it to an OpenSea
    - **TC7:** Assemble a Dashboard  
    - **TC8:** Apply Customizations & Filters  
    - **TC9:** Validate Dashboard Performance  
-   - **TC10:** Verify Data Updates in Superset  
 
 ---
 
@@ -54,6 +53,7 @@ docker-compose -f docker-compose-non-dev.yml up
 **Test Run Date**: 08/03/2025\
 **Result**: Pass\
 **Testing Outputs**: 
+![Output1 File](file1.png)
 
 ---
 
@@ -74,7 +74,7 @@ docker run -d --name opensearch-node1 --net opensearch-net -p 9200:9200 -p 9600:
 **Test Run Date**:08/03/2025\
 **Result**: Pass\
 **Testing Outputs**: 
-
+![Output File](file2.png)
 ---
 
 ### TC3: Configure OpenSearch Connection in Superset
@@ -93,7 +93,7 @@ opensearch+https://admin:admin@localhost:9200
 **Test Run Date**:08/03/2025\
 **Result**: Pass\
 **Testing Outputs**: 
-
+![Output File](file3.png)
 ---
 
 ### TC4: Load Dataset into OpenSearch
@@ -107,7 +107,7 @@ opensearch+https://admin:admin@localhost:9200
 **Test Run Date**:08/03/2025\
 **Result**: Pass\
 **Testing Outputs**: 
-
+![Output File](file4.png)
 ---
 
 ### TC5: Create a Dataset in Superset
@@ -118,7 +118,7 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The dataset should be available for visualization.
 
 **Testing Outputs**: 
-
+![Output File](file5.png)
 ---
 
 ### TC6: Build and Configure Charts
@@ -129,7 +129,7 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The charts should correctly visualize the dataset.
 
 **Testing Outputs**: 
-
+![Output File](file6.png)
 ---
 
 ### TC7: Assemble a Dashboard
@@ -140,7 +140,7 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The dashboard should be visually appealing and functional.
 
 **Testing Outputs**: 
-
+![Output File](file7.png)
 ---
 
 ### TC8: Apply Customizations and Filters
@@ -151,7 +151,7 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The dashboard should allow dynamic interactions.
 
 **Testing Outputs**: 
-
+![Output File](file8.png)
 ---
 
 ### TC9: Validate Dashboard Performance
@@ -162,17 +162,7 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The dashboard should perform well without lag.
 
 **Testing Outputs**: 
-
----
-
-### TC10: Verify Data Updates in Superset
-
-**Scenario**: Ensure real-time data updates in the dashboard.\
-**Given**: The OpenSearch data changes.\
-**When**: Refreshing the dashboard.\
-**Then**: The updates should reflect in Superset.
-
-**Testing Outputs**: 
+![Output File](file9.png)
 
 ---
 
