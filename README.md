@@ -102,9 +102,11 @@ opensearch+https://admin:admin@localhost:9200
 **When**: Importing data.\
 **Then**: The data should be available in OpenSearch.
 
-**Test Run Date**: 08/03/2025\
+
+**Test Run Date**:08/03/2025\
 **Result**: Pass\
 **Testing Outputs**: 
+
 ---
 
 ### TC5: Create a Dataset in Superset
