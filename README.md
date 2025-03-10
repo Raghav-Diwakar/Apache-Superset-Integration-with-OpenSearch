@@ -1,6 +1,6 @@
 # Test Case: Apache Superset Integration with OpenSearch
 
-**Submitted By**: Raghva\
+**Submitted By**: Raghav\
 **Submitted To**: Mrs Nitu Gupta.
 
 
