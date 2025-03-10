@@ -1,10 +1,8 @@
 # Test Case: Apache Superset Integration with OpenSearch
 
-**Submitted By**: [Your Name]\
-**Submitted To**: [Reviewer Name]
+**Submitted By**: Raghva\
+**Submitted To**: Mrs Nitu Gupta.
 
-**Test Case Version**: \
-**Reviewer Name**: [Reviewer Name]
 
 ## Goal
 
@@ -52,9 +50,9 @@ cd superset
 docker-compose -f docker-compose-non-dev.yml up
 ```
 
-**Test Run Date**:\
-**Result**: Pending/Pass/Fail\
-**Testing Outputs**: (paste your output/snapshots here)
+**Test Run Date**: 08/03/2025\
+**Result**: Pass\
+**Testing Outputs**: 
 
 ---
 
@@ -72,9 +70,9 @@ docker network create opensearch-net
 docker run -d --name opensearch-node1 --net opensearch-net -p 9200:9200 -p 9600:9600 -e "discovery.type=single-node" -e "OPENSEARCH_INITIAL_ADMIN_PASSWORD=admin" opensearchproject/opensearch:latest
 ```
 
-**Test Run Date**:\
-**Result**: Pending/Pass/Fail\
-**Testing Outputs**: (paste your output/snapshots here)
+**Test Run Date**:08/03/2025\
+**Result**: Pass\
+**Testing Outputs**: 
 
 ---
 
@@ -91,9 +89,9 @@ Connection string:
 opensearch+https://admin:admin@localhost:9200
 ```
 
-**Test Run Date**:\
-**Result**: Pending/Pass/Fail\
-**Testing Outputs**: (paste your output/snapshots here)
+**Test Run Date**:08/03/2025\
+**Result**: Pass\
+**Testing Outputs**: 
 
 ---
 
@@ -104,16 +102,9 @@ opensearch+https://admin:admin@localhost:9200
 **When**: Importing data.\
 **Then**: The data should be available in OpenSearch.
 
-Command:
-
-```sh
-curl -X POST "http://localhost:9200/nyc_taxi/_bulk" -H "Content-Type: application/json" --data-binary "@nyc_taxi.json"
-```
-
-**Test Run Date**:\
-**Result**: Pending/Pass/Fail\
-**Testing Outputs**: (paste your output/snapshots here)
-
+**Test Run Date**: 08/03/2025\
+**Result**: Pass\
+**Testing Outputs**: 
 ---
 
 ### TC5: Create a Dataset in Superset
@@ -122,6 +113,8 @@ curl -X POST "http://localhost:9200/nyc_taxi/_bulk" -H "Content-Type: applicatio
 **Given**: OpenSearch is connected to Superset.\
 **When**: Creating a new dataset from the OpenSearch index.\
 **Then**: The dataset should be available for visualization.
+
+**Testing Outputs**: 
 
 ---
 
@@ -132,6 +125,8 @@ curl -X POST "http://localhost:9200/nyc_taxi/_bulk" -H "Content-Type: applicatio
 **When**: Configuring and generating charts.\
 **Then**: The charts should correctly visualize the dataset.
 
+**Testing Outputs**: 
+
 ---
 
 ### TC7: Assemble a Dashboard
@@ -140,6 +135,8 @@ curl -X POST "http://localhost:9200/nyc_taxi/_bulk" -H "Content-Type: applicatio
 **Given**: Charts are created in Superset.\
 **When**: Assembling them into a dashboard.\
 **Then**: The dashboard should be visually appealing and functional.
+
+**Testing Outputs**: 
 
 ---
 
@@ -150,6 +147,8 @@ curl -X POST "http://localhost:9200/nyc_taxi/_bulk" -H "Content-Type: applicatio
 **When**: Adding filters, themes, and interactivity.\
 **Then**: The dashboard should allow dynamic interactions.
 
+**Testing Outputs**: 
+
 ---
 
 ### TC9: Validate Dashboard Performance
@@ -159,6 +158,8 @@ curl -X POST "http://localhost:9200/nyc_taxi/_bulk" -H "Content-Type: applicatio
 **When**: Testing performance and responsiveness.\
 **Then**: The dashboard should perform well without lag.
 
+**Testing Outputs**: 
+
 ---
 
 ### TC10: Verify Data Updates in Superset
@@ -167,6 +168,8 @@ curl -X POST "http://localhost:9200/nyc_taxi/_bulk" -H "Content-Type: applicatio
 **Given**: The OpenSearch data changes.\
 **When**: Refreshing the dashboard.\
 **Then**: The updates should reflect in Superset.
+
+**Testing Outputs**: 
 
 ---
 
