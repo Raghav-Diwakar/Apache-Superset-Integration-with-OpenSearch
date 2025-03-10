@@ -10,20 +10,21 @@ The goal of this project is to explore Apache Superset, connect it to an OpenSea
 
 ## Table of Contents
 
-- [Test Case: Apache Superset Integration with OpenSearch](#test-case-apache-superset-integration-with-opensearch)
-  - [Goal](#goal)
-  - [Table of Contents](#table-of-contents)
-    - [Test Environment](#test-environment)
-    - [TC1: Install Apache Superset using Docker](#tc1-install-apache-superset-using-docker)
-    - [TC2: Install OpenSearch using Docker](#tc2-install-opensearch-using-docker)
-    - [TC3: Configure OpenSearch Connection in Superset](#tc3-configure-opensearch-connection-in-superset)
-    - [TC4: Load Dataset into OpenSearch](#tc4-load-dataset-into-opensearch)
-    - [TC5: Create a Dataset in Superset](#tc5-create-a-dataset-in-superset)
-    - [TC6: Build and Configure Charts](#tc6-build-and-configure-charts)
-    - [TC7: Assemble a Dashboard](#tc7-assemble-a-dashboard)
-    - [TC8: Apply Customizations and Filters](#tc8-apply-customizations-and-filters)
-    - [TC9: Validate Dashboard Performance](#tc9-validate-dashboard-performance)
-    - [TC10: Verify Data Updates in Superset](#tc10-verify-data-updates-in-superset)
+### Apache Superset & OpenSearch Integration Test  
+
+#### 1. Goal  
+#### 2. Table of Contents  
+   - **Test Environment**  
+   - **TC1:** Install Apache Superset (Docker)  
+   - **TC2:** Install OpenSearch (Docker)  
+   - **TC3:** Configure OpenSearch in Superset  
+   - **TC4:** Load Dataset into OpenSearch  
+   - **TC5:** Create a Dataset in Superset  
+   - **TC6:** Build & Configure Charts  
+   - **TC7:** Assemble a Dashboard  
+   - **TC8:** Apply Customizations & Filters  
+   - **TC9:** Validate Dashboard Performance  
+   - **TC10:** Verify Data Updates in Superset  
 
 ---
 
