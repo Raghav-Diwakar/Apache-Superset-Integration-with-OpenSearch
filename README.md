@@ -53,7 +53,7 @@ docker-compose -f docker-compose-non-dev.yml up
 **Test Run Date**: 08/03/2025\
 **Result**: Pass\
 **Testing Outputs**: 
-![Output1 File](file1.png)
+![Output1 File](File1.png)
 
 ---
 
@@ -74,7 +74,7 @@ docker run -d --name opensearch-node1 --net opensearch-net -p 9200:9200 -p 9600:
 **Test Run Date**:08/03/2025\
 **Result**: Pass\
 **Testing Outputs**: 
-![Output File](file2.png)
+![Output File](File2.png)
 ---
 
 ### TC3: Configure OpenSearch Connection in Superset
@@ -93,7 +93,7 @@ opensearch+https://admin:admin@localhost:9200
 **Test Run Date**:08/03/2025\
 **Result**: Pass\
 **Testing Outputs**: 
-![Output File](file3.png)
+![Output File](File3.png)
 ---
 
 ### TC4: Load Dataset into OpenSearch
