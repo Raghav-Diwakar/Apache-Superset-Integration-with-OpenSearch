@@ -94,6 +94,7 @@ opensearch+https://admin:admin@localhost:9200
 **Test Run Date**:08/03/2025\
 **Result**: Pass\
 **Testing Outputs**: 
+
 ![Output File](File3.png)
 ---
 
@@ -108,6 +109,7 @@ opensearch+https://admin:admin@localhost:9200
 **Test Run Date**:08/03/2025\
 **Result**: Pass\
 **Testing Outputs**: 
+
 ![Output File](File4.png)
 ---
 
@@ -119,6 +121,7 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The dataset should be available for visualization.
 
 **Testing Outputs**: 
+
 ![Output File](File5.png)
 ---
 
@@ -130,6 +133,7 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The charts should correctly visualize the dataset.
 
 **Testing Outputs**: 
+
 ![Output File](File6.png)
 ---
 
@@ -141,6 +145,7 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The dashboard should be visually appealing and functional.
 
 **Testing Outputs**: 
+
 ![Output File](File7.png)
 ---
 
@@ -152,6 +157,7 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The dashboard should allow dynamic interactions.
 
 **Testing Outputs**: 
+
 ![Output File](File8.png)
 ---
 
@@ -163,6 +169,7 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The dashboard should perform well without lag.
 
 **Testing Outputs**: 
+
 ![Output File](File9.png)
 
 ---
