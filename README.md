@@ -52,6 +52,8 @@ docker-compose -f docker-compose-non-dev.yml up
 
 **Test Run Date**: 08/03/2025\
 **Result**: Pass\
+**Expected Output**: Apache Superset Installed and contains all file.
+
 **Testing Outputs**: 
 ![Output1 File](File1.png)
 
