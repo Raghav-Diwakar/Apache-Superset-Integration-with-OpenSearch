@@ -75,6 +75,7 @@ docker run -d --name opensearch-node1 --net opensearch-net -p 9200:9200 -p 9600:
 
 **Test Run Date**:08/03/2025\
 **Result**: Pass\
+**Expected Output**: Opensearch Installed and active.
 **Testing Outputs**: 
 
 ![Output File](File2.png)
@@ -95,6 +96,7 @@ opensearch+https://admin:admin@localhost:9200
 
 **Test Run Date**:08/03/2025\
 **Result**: Pass\
+**Expected Output**: Opensearch Connected with Superset.
 **Testing Outputs**: 
 
 ![Output File](File3.png)
@@ -108,8 +110,9 @@ opensearch+https://admin:admin@localhost:9200
 **Then**: The data should be available in OpenSearch.
 
 
-**Test Run Date**:08/03/2025\
+**Test Run Date**:09/03/2025\
 **Result**: Pass\
+**Expected Output**: Dataset Available and access with Superset.
 **Testing Outputs**: 
 
 ![Output File](File4.png)
@@ -122,6 +125,9 @@ opensearch+https://admin:admin@localhost:9200
 **When**: Creating a new dataset from the OpenSearch index.\
 **Then**: The dataset should be available for visualization.
 
+**Test Run Date**:09/03/2025\
+**Result**: Pass\
+**Expected Output**: All attribute of dataset in defined order and sorted for dashboard.
 **Testing Outputs**: 
 
 ![Output File](File5.png)
@@ -134,6 +140,9 @@ opensearch+https://admin:admin@localhost:9200
 **When**: Configuring and generating charts.\
 **Then**: The charts should correctly visualize the dataset.
 
+**Test Run Date**:09/03/2025\
+**Result**: Pass\
+**Expected Output**: Build Chart of dashboard presented and customize.
 **Testing Outputs**: 
 
 ![Output File](File6.png)
@@ -146,6 +155,9 @@ opensearch+https://admin:admin@localhost:9200
 **When**: Assembling them into a dashboard.\
 **Then**: The dashboard should be visually appealing and functional.
 
+**Test Run Date**:10/03/2025\
+**Result**: Pass\
+**Expected Output**: Assemble all chart in dashboard presented for hosted.
 **Testing Outputs**: 
 
 ![Output File](File7.png)
@@ -158,6 +170,9 @@ opensearch+https://admin:admin@localhost:9200
 **When**: Adding filters, themes, and interactivity.\
 **Then**: The dashboard should allow dynamic interactions.
 
+**Test Run Date**:10/03/2025\
+**Result**: Pass\
+**Expected Output**: Apply for Universal Customzation on all Charts.
 **Testing Outputs**: 
 
 ![Output File](File8.png)
@@ -170,6 +185,9 @@ opensearch+https://admin:admin@localhost:9200
 **When**: Testing performance and responsiveness.\
 **Then**: The dashboard should perform well without lag.
 
+**Test Run Date**:10/03/2025\
+**Result**: Pass\
+**Expected Output**: Apply Filter on dashboard and check all working as expected.
 **Testing Outputs**: 
 
 ![Output File](File9.png)
